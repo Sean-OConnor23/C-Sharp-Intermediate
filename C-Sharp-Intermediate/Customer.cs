@@ -10,14 +10,11 @@ namespace C_Sharp_Intermediate
     {
         public int Id;
         public string Name;
-        public List<Order> Orders; 
 
-        public Customer()
-        {
-            Orders = new List<Order>();           
-        }
+        //readonly means we can only initialize here or in the constructor
+        public readonly List<Order> Orders = new List<Order>(); 
 
-        public Customer(int id) : this()
+        public Customer(int id)
         {
             this.Id = id;
         }
@@ -25,6 +22,11 @@ namespace C_Sharp_Intermediate
         public Customer(int id, string name) : this(id)
         {
             this.Name = name;
+        }
+
+        public void Promote()
+        {
+
         }
     }
 }
