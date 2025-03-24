@@ -42,6 +42,21 @@ namespace C_Sharp_Intermediate
             var customer1 = new Customer(1);
             customer.Orders.Add(new Order());
             customer.Orders.Add(new Order());
+
+            //2.12
+            var person2 = new Person();
+            person2.SetBirthdate(new DateTime(1982, 1, 1));
+            var birthdate = person2.GetBirthdate();
+
+            //2.13
+            var person3 = new Person(new DateTime(1982, 1, 1));
+            //person.Birthdate = new DateTime(1982, 1, 1);  Commented out once property set to private set
+            var age3 = person3.Age;
+
+            //2.14
+            var cookie = new HttpCookie();
+            cookie["name"] = "Sean";
+            var temp = cookie["name"];
             
         }
 
