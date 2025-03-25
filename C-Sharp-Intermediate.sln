@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C-Sharp-Intermediate", "C-Sharp-Intermediate\C-Sharp-Intermediate.csproj", "{4DC3B0C6-A068-47DA-8727-45DC814A2AF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon", "Amazon\Amazon.csproj", "{C08F3CD5-65CA-482D-9DED-C0E8F7AB3723}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4DC3B0C6-A068-47DA-8727-45DC814A2AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DC3B0C6-A068-47DA-8727-45DC814A2AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DC3B0C6-A068-47DA-8727-45DC814A2AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C08F3CD5-65CA-482D-9DED-C0E8F7AB3723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C08F3CD5-65CA-482D-9DED-C0E8F7AB3723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C08F3CD5-65CA-482D-9DED-C0E8F7AB3723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C08F3CD5-65CA-482D-9DED-C0E8F7AB3723}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

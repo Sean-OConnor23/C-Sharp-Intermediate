@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using Amazon;
+
 namespace C_Sharp_Intermediate
 {
     class Program
@@ -57,7 +59,27 @@ namespace C_Sharp_Intermediate
             var cookie = new HttpCookie();
             cookie["name"] = "Sean";
             var temp = cookie["name"];
-            
+
+            //3.18 --> Inheritance
+            var text = new Text();
+            text.Width = 100;
+            text.Copy();
+
+            //3.19 --> Composition
+            var dbMigrator = new DbMigrator(new Logger());
+
+            var logger = new Logger();
+            var installer = new Installer(logger);
+
+            dbMigrator.Migrate();
+            installer.Install();
+
+            //4.22
+            var customer2 = new Customer1();
+            customer2.Promote();
+
+            //4.23
+
         }
 
         static void UseParams()
