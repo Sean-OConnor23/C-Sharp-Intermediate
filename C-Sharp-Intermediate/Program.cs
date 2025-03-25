@@ -79,7 +79,9 @@ namespace C_Sharp_Intermediate
             customer2.Promote();
 
             //4.23
+            var car = new Car("XYZ1234");
 
+            //4.24
         }
 
         static void UseParams()
