@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using Amazon;
+using System.Collections;
 
 namespace C_Sharp_Intermediate
 {
@@ -82,6 +83,29 @@ namespace C_Sharp_Intermediate
             var car = new Car("XYZ1234");
 
             //4.24
+            Text1 text1 = new Text1();
+            //Provides more limited view of object
+            //Upcasting
+            Shape shape = text1;
+            text1.Width = 200;
+            shape.Width = 100;
+
+            var shapeOut = text1.Width; //Output is 100
+
+            StreamReader reader = new StreamReader(new MemoryStream());
+            var list = new ArrayList(); //ArrayList is not type safe
+            var anotherList = new List<Shape>();
+
+            //Downcasting because Text1 inherits Shape
+            //So casting Shape "down" to Text1
+            Shape shape1 = new Text1();
+            Text1 text2 = (Text1)shape;
+
+            //4.25
+            var list2 = new ArrayList();
+            list2.Add(1);
+
+            //5.28
         }
 
         static void UseParams()
