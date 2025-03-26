@@ -6,17 +6,22 @@ using System.Threading.Tasks;
 
 namespace C_Sharp_Intermediate
 {
-    public class Shape
+    public abstract class Shape2
     {
         public int Width { get; set; }
         public int Height { get; set; }
-        public int X { get; set; }
-        public int Y { get; set; }
-        
 
-        public void Draw()
+        public abstract void Draw();
+
+        public void Copy()
         {
+            var output = "Copy shape into clipboard";
+        }
 
+        public void Select()
+        {
+            var output = "Select the shape";
         }
     }
+
 }

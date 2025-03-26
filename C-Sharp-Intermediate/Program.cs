@@ -106,6 +106,20 @@ namespace C_Sharp_Intermediate
             list2.Add(1);
 
             //5.28
+            var shapes = new List<Shape1>();
+            shapes.Add(new Circle());
+            shapes.Add(new Rectangle());
+
+            var canvas = new Canvas();
+            canvas.DrawShape(shapes);
+
+            //5.29
+            //Cannot instantiate Shape2 because it is abstract
+            //var shape= new Shape2();
+            //Abstraction provides a way for developers to follow a specific implementation practice
+            var circle = new Circle1();
+            var rectangle = new Rectangle1();
+
         }
 
         static void UseParams()
