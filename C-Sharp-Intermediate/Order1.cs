@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace C_Sharp_Intermediate
 {
-    public class Order
+    public class Order1
     {
+        public bool IsShipped { get; set; }
+        public float TotalPrice { get; set; }
+        public Shipment Shipment { get; set; }
+
     }
 }

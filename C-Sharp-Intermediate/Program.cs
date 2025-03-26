@@ -120,6 +120,21 @@ namespace C_Sharp_Intermediate
             var circle = new Circle1();
             var rectangle = new Rectangle1();
 
+            //6.34
+            var orderProcessor = new OrderProcessor(new ShippingCalculator());
+            var order = new Order1 { };
+            orderProcessor.Process(order);
+
+            //6.35
+            var dbMigrator1 = new DbMigrator1(new ConsoleLogger());
+            dbMigrator1.Migrate();
+
+            //var dbMigrator2 = new DbMigrator1(new FileLogger("TEMP"));
+            //dbMigrator2.Migrate();
+
+            //6.37
+
+
         }
 
         static void UseParams()

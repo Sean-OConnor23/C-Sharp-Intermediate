@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace C_Sharp_Intermediate
 {
-    public class Order
+    public interface ILogger
     {
+        void LogError(string message);
+        void LogInfo(string message);
     }
 }

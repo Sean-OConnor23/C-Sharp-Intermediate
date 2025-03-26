@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace C_Sharp_Intermediate
 {
-    public class Order
+    public interface IShippingCalculator
     {
+        float CalculateShipping(Order1 order);
     }
 }

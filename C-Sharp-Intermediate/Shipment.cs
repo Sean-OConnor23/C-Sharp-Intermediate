@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace C_Sharp_Intermediate
 {
-    public class Order
+    public class Shipment
     {
+        public float Cost { get; set; }
+        public DateTime ShippingDate { get; set; }
     }
 }
