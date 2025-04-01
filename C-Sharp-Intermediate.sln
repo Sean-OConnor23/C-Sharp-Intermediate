@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon", "Amazon\Amazon.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C-Sharp-Intermediate.Tests", "C-Sharp-Intermediate.Tests\C-Sharp-Intermediate.Tests.csproj", "{253A5589-BAC0-48E0-8166-839CBF931B79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C-Sharp-Advanced", "C-Sharp-Advanced\C-Sharp-Advanced.csproj", "{83D09D82-EA71-4912-8E8D-DF1FABFE573E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{253A5589-BAC0-48E0-8166-839CBF931B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{253A5589-BAC0-48E0-8166-839CBF931B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{253A5589-BAC0-48E0-8166-839CBF931B79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83D09D82-EA71-4912-8E8D-DF1FABFE573E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83D09D82-EA71-4912-8E8D-DF1FABFE573E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83D09D82-EA71-4912-8E8D-DF1FABFE573E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83D09D82-EA71-4912-8E8D-DF1FABFE573E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
